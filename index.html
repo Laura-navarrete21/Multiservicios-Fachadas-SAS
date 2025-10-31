@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
     <title>Multiservicios Fachadas SAS</title>
+    <!--Linking Swiper CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link
       rel="shortcut icon"
       href="./images/favicon-32x32.png"
@@ -103,6 +105,102 @@
           edificios, apartamentos e inmuebles comerciales. Contamos con un
           amplio portafolio, con un servicios íntegro y de calidad.
         </p>
+      </main>
+
+    <section class="wrapper container">
+    <div class="container swiper">
+      <div class="wrapper">
+        <div class="card.list swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./images/Lavado.jpg" alt="Lavados">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Lavados</h3>
+              <p class="card-text">Lavado de fachadas y lavado con hidrolavadora.</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./images/veentaneria.jpg" alt="Ventaneria">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Ventanería</h3>
+              <p class="card-text">Limpieza de ventanería y sellamiento de ventanería.</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./images/pintura.jpg" alt="Pintura">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Pintura</h3>
+              <p class="card-text">Pintura exterior, pintura interior y pintura en puntos fijos.</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./images/reparacion.jpg" alt="reparaciones">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Reparaciones y Cambios</h3>
+              <p class="card-text">Reparación de ladrillos, juntas, paredes, y techos.</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./images/intslacion.jpg" alt="Lavados">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Instalaciones</h3>
+              <p class="card-text">Instalación de paredes drywall y de cámaras de seguridad.</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./images/remodelacion.jpg" alt="Lavados">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Remodelaciones</h3>
+              <p class="card-text">Remodelaciones completas de apartamentos.</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./images/hidrofugado.jpg" alt="Lavados">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Hidrofugado en Fachadas</h3>
+              <p class="card-text">Uso de hidrófugo de actual generación en las superficies.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- If we need pagination -->
+         <div class="swiper-pagination"></div>
+         
+         <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    </section>
+
+
+    <main>
+      <section class="container about">
+        <h2 class="subtitle">Nuestros Servicios</h2>
+        <p class="about__paragraph">
+          Desde el año 2019 nos dedicamos al mantenimiento de fachadas en
+          edificios, apartamentos e inmuebles comerciales. Contamos con un
+          amplio portafolio, con un servicios íntegro y de calidad.
+        </p>
 
         <div class="about__main">
           <article class="about__icons">
@@ -113,7 +211,11 @@
             </p>
           </article>
           <article class="about__icons">
-            <img src="./images/veentana.svg" class="about__icon" />
+            <img
+              src="./images/veentana.svg
+           "
+              class="about__icon"
+            />
             <h3 class="about__title">Ventanería</h3>
             <p class="about__paragraph">
               Limpieza de ventanería y sellamiento de ventanería.
@@ -454,5 +556,10 @@
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="script.js"></script>
+    <!--Linking Swiper Script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!--Linking Custom Script-->
+    <script src="script.js"></script>
   </body>
 </html>
